@@ -1,0 +1,380 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------------------------------------------- */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: "Roboto" ,sans-serif;
+    line-height: 1.5;
+}
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0.5px 0;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+/* ------------------------ */
+.header {
+    padding: 16px 48px;
+}
+.logo a{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+.logo-menu a {
+    color: black;
+    padding-left: 42px;
+}
+/* ------------------------- */
+main {
+    background-color: gray;
+}
+.lets-begin {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ) , url(./assets/banner.jpg) no-repeat, 50% 50%;
+    background-size: cover;
+    /* height: 100vh; */
+}
+h1 {
+    font-size: 32px;
+    color: #fff;
+}
+.hero {
+    text-align: center;
+    margin: 56px 0;
+    line-height: 1.8;
+}
+.hero p {
+    color: #fff;
+}
+ion-icon {
+    color: rgb(1, 150, 105);
+    font-size: 32px;
+}
+.hero-next {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(252, 250, 250);
+    padding: 18px;
+    width: 850px;
+    margin: 0 auto;
+    margin-bottom: 56px;
+}
+.destination {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    /* display: inline; */
+    padding: 22px 0;
+}
+.destination input {
+    /* display: inline-block; */
+    width: 95%;
+    outline: none;
+    border: none;
+}
+.check-in {
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+}
+.check-out {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 18px;
+    width: 100%;
+
+}
+.hero-next1 {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    width: 100%;
+}
+.label {
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 18px; */
+    /* display: block;
+    width: 100%; */
+    display: block;
+    width: 100%;
+} 
+.mid {
+    padding: 0 32px;
+}
+.col-2 {
+    display: flex;
+}
+.col-2 label {
+    width: 100%;
+}
+.col-2-2 select {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.person-info {
+    display: flex;
+    font-size: 13px;
+}
+.check-avail {
+    width: 100%;
+    margin-top: 38px;
+    padding: 10px;
+    background-color: rgb(96, 184, 157);
+    color: #fff;
+}
+.col-1-2 {
+    flex: 0 1 100%;
+}
+.col-2-2 {
+    flex: 0 1 100%;
+}
+/* ------------------------------------- */
+.journey-priority {
+    text-align: center;
+    width: 850px;
+    margin: 24px auto;
+}
+.row-2 {
+    background-color: rgb(228, 227, 227);
+}
+.row-2 p{
+    padding: 16px 0;
+    padding-bottom: 24px;
+    font-size: 14px;
+}
+h2 {
+    font-size: 32px;
+}
+h2 span {
+    font-weight: 800;
+}
+.journey-priority a {
+    color: #fff;
+    background-color: rgb(96, 184, 157);
+    padding: 12px;
+    font-size: 14px;
+    margin: 24px 0;
+}
+/* ---------------------------------------- */
+h3 {
+    font-size: 28px;
+}
+.europe-places {
+    background-color: rgb(96, 184, 157);
+    font-size: 13px;
+    padding: 28px 32px;
+    color: #fff;
+    flex: 0 1 50%;
+}
+.row-3 {
+    background-color: #fff;
+    width: 100%;
+}
+.row-3 img {
+    flex: 0 1 50%;
+}
+.arrow-icon ion-icon {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 1px;
+}
+.europe-places p {
+    padding: 16px 0;
+}
+.europe-places a {
+    background-color: white;
+    color: rgb(96, 184, 157);
+    padding: 8px;
+}
+.arrow-icon {
+    margin-left: -102px ;
+}
+/* ----------------------------- */
+.row-4 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.map {
+    background-color: rgb(96, 184, 157);
+    display: flex;
+    /* justify-content:center; */
+    align-items: stretch;
+}
+.map div {
+    padding: 18px 36px;
+}
+.map p {
+    text-align: center;
+}
+.pink {
+    background-color: rgb(180, 108, 120);
+}
+/* -------------------------- */
+.hotel-info {
+    background-color: #fff;
+    padding-top: 24px;
+}
+
+.whole-body {
+    max-width: 850px;
+    margin: 12px auto;
+}
+.btn-curve {
+    background-color: rgb(96, 184, 157);
+    /* padding-right: 132px; */
+}
+.price-detail {
+    background-color: rgb(96, 184, 157);
+    /* padding-right: 108px; */
+    width: 348px;
+}
+.price-detail p {
+    text-align: center;
+    color: #fff;
+    /* padding: 0 32px; */
+}
+
+.price-detail a {
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+.mid-body {
+    font-size: 18px;
+    line-height: 1.8;
+    background-color: #fff;
+    padding: 34px;
+    border-top: 1px solid rgb(218, 216, 216);
+    border-bottom: 1px solid rgb(218, 216, 216);
+}
+h4 {
+    font-weight: 600;
+}
+.mid-body p {
+    line-height: 1.5;
+}
+.place {
+    color: red;
+    font-size: 14px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+.normal-para {
+    color: rgb(148, 147, 147);
+    font-size: 13px;
+}
+.show-btn {
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+.show-btn a {
+    background-color: rgb(96, 184, 157);
+    color: white;
+    padding: 12px;
+    margin: 32px 0;
+}
+/* --------------------------- */
+.map{
+    width: 200%;
+}
+.form-option {
+    display: inline;
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0px;
+}
+.whole-form {
+    width: 60%;
+}
+.name{
+    margin-right: 20px;
+}
+fieldset {
+    width: 420px;
+    background-color: #fff;
+    padding: 12px;
+    width: 100%;
+}
+.send-btn {
+    width: 100%;
+    /* margin-top: 38px; */
+    padding: 10px;
+    background-color: rgb(96, 184, 157);
+    color: #fff;
+}
+/* ------------------------ */
+.footer {
+    text-align: center;
+    padding: 34px;
+    background-color: rgb(96, 184, 157);
+
+}
