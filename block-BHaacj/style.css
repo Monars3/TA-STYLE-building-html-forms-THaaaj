@@ -269,6 +269,10 @@ h3 {
 .map div {
     padding: 18px 36px;
 }
+.map div:hover {
+    background-color: rgb(180, 108, 120);
+
+}
 .map p {
     text-align: center;
 }
@@ -343,17 +347,38 @@ h4 {
     margin: 32px 0;
 }
 /* --------------------------- */
-.map{
-    width: 200%;
+/* .map{
+    width: 100%;
+} */
+.font-0 {
+    font-size: 0;
 }
 .form-option {
     display: inline;
     width: 100%;
-    padding: 8px;
-    margin: 8px 0px;
+    padding: 6px;
+    margin: 5px 0px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+}
+.contact {
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 .whole-form {
-    width: 60%;
+    width: 30%;
+    background-color: #ffffff;
+    padding: 12px;
+    position: absolute;
+    top: 80px;
+    right: 80px;
 }
 .name{
     margin-right: 20px;
